@@ -1,30 +1,36 @@
-📌 NumPy and TensorFlow for Machine Learning
-Welcome to this repository.
-This project is a structured personal learning journey focused on Machine Learning and Artificial Intelligence (AI) using NumPy, Pandas, and TensorFlow.
-It is designed to build a strong foundation in how data is processed, analyzed, and transformed into intelligent systems.
-By combining mathematical fundamentals, data engineering, and modern AI frameworks, this repository explores the essential concepts behind machine learning and deep learning in a practical and systematic way.
-🚀 Project Scope
-This repository covers:
-Numerical computation and array-based operations using NumPy
-Data analysis, cleaning, and preprocessing using Pandas
-Building, training, and evaluating models using TensorFlow
-Understanding the end-to-end workflow of AI systems
-Hands-on experiments for Machine Learning & Deep Learning beginners
-🧠 Purpose & Vision
-Artificial Intelligence is shaping the future of technology, industry, and society.
-This project serves as a foundational stepping stone to understand how AI systems are built — starting from raw data and ending with trained, intelligent models.
-The repository is created for:
-Learning core AI concepts deeply
-Experimenting with real implementations
-Building long-term competence in the AI field
-This is not just code — it is a learning process documented in public.
-📚 Tech Stack & AI System Design
-NumPy for numerical computation and mathematical operations
-Pandas for efficient data handling and preprocessing
-TensorFlow as the primary framework for building and training AI models
-Together, these tools form a strong foundation for developing scalable, data-driven, and intelligent systems.
-🎯 Long-Term Goal
-To continuously evolve this repository into a solid Machine Learning portfolio that reflects:
-Strong fundamentals
-Clean and readable code
-A clear understanding of AI system workflows
+from datetime import datetime
+import time
+
+main = input("Enter your game: ")
+
+if main == "Snakezone":
+  print("Game:", main)
+elif main == "zuma":
+  print("Game:", main)
+elif main == "Train to city":
+  print("Game:",main)
+elif main == "Star the leader":
+  print("Game:", main)
+else:
+  print("This have choice the 5 game")
+
+now = datetime.time().strftime("%H:%M:%S | Date: %d:%m:Y")
+print("ON by the system:", now)
+
+system_type_controller = ("Controller:", "X, Y, W, O")
+system_zoom_level = ("Zoom Level:", ("9, 13, 45, 321"))
+system_on_off_state = ("state:",[93, 23, 123, 54])
+
+if system_type_controller == "Mechanical controller X, Y, O, W":
+  print("System control state: True (Mechanical controller)")
+elif system_on_off_state == "C4, X1, Full trained": # Changed => to ==
+  print("System on/off state: False (Fully trained)")
+elif system_zoom_level == "Quadratic, system zoom": # Changed <= to ==
+  print("System zoom level: True (Quadratic system zoom)")
+else:
+  print("Default system state: True")
+
+actual_system_on_off_status = "ON" # Example: can be "ON" or "OFF"
+
+print(f"Started by system: {actual_system_on_off_status}")
+print(f"You like the game: {main}")
