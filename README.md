@@ -1,36 +1,4 @@
----
-
-# 📁 Project Structure
-
-```
-Numpy-and-Tensorflow-for-Machine-Learning/
-│
-├── data/                  # Dataset (raw & processed)
-│   ├── raw/
-│   └── processed/
-│
-├── notebooks/             # Jupyter notebooks (EDA, experiments)
-│
-├── src/                   # Core source code
-│   ├── numpy_basics/      # Numpy fundamentals
-│   ├── tensorflow_models/ # TensorFlow models
-│   ├── preprocessing/     # Data preprocessing
-│   └── utils/             # Helper functions
-│
-├── models/                # Saved models
-│
-├── outputs/               # Results, logs, visualizations
-│
-├── requirements.txt       # Dependencies
-├── README.md              # Project documentation
-└── .gitignore
-```
-
----
-
-# 📄 README.md
-
-# 🚀 Numpy and TensorFlow for Machine Learning
+# Numpy and TensorFlow for Machine Learning
 
 A structured learning and experimentation repository focused on mastering **NumPy** and **TensorFlow** for real-world Machine Learning applications.
 
